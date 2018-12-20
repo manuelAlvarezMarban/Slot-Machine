@@ -7,7 +7,7 @@ Each slot is represented by 4 bits vector (BCD).
 The system consists on one RandomGeneration module which uses the LFSR, one arithmetic module for prize calculating and the
 Slot Machine managed by different states.
 
-First we need to init the Machine (nReset - active low), then we can play inserting new credit. 
+First we need to init the Machine (nReset - active low), then we can play by inserting new credit (newCredit = 1). 
 The prizes and their several slots combination are:
 
 | Slot | Prize Type | Prize        |
