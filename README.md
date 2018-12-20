@@ -5,7 +5,7 @@ It uses a [Linear Feedback Shift Register](https://es.wikipedia.org/wiki/LFSR) w
 Each slot is represented by 4 bits vector (BCD).
 
 The system consists on one RandomGeneration module which uses the LFSR, one arithmetic module for prize calculating and the
-Slot Machine managed by differents states.
+Slot Machine managed by different states.
 
 First we need to init the Machine (nReset - active low), then we can play inserting new credit. 
 The prizes and their several slots combination are:
