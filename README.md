@@ -8,7 +8,7 @@ The system consists on one RandomGeneration module which uses the LFSR, one arit
 Slot Machine managed by different states.
 
 First we need to init the Machine (nReset - active low), then we can play by inserting new credit (newCredit = 1). 
-The prizes and their several slots combinations are:
+The prizes and their several slot combinations are:
 
 | Slot | Prize Type | Prize        |
 |------|------------|--------------|
