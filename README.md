@@ -27,7 +27,7 @@ The prizes and their several slots combination are:
 | x0x  | BANK       | No Prize     |
 | xx0  | BANK       | No Prize     |
 
-Each bet (credit) is 1 €. After endPlay = 1 the slots combination and prize earned could be seen. If we win, pay must be '1' before play again.
+Each bet (credit) is 1 €. After endPlay = 1 the slots combination and available prize could be seen. If we win, pay must be '1' before play again.
 If we gain the refund, no new credits must be inserted to play again.
 
 
