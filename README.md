@@ -4,7 +4,7 @@ Slot Machine hardware implementation with LFSR for random slots.
 It uses a [Linear Feedback Shift Register](https://es.wikipedia.org/wiki/LFSR) with 64 degree polynomial and one seed in order to random slots generation. 
 Each slot is represented by 4 bits vector (BCD).
 
-The system consists on one RandomGeneration module which uses the LFSR, one arithmetic module for prize calculating and the
+The system consists on: one RandomGeneration module which uses the LFSR, one arithmetic module for prize calculating and the
 Slot Machine managed by different states.
 
 First we need to init the Machine (nReset - active low), then we can play by inserting new credit (newCredit = 1). 
@@ -31,4 +31,10 @@ Each bet (credit) is 1 €. After endPlay = 1 the slots combination and availabl
 If we gain the refund, no new credits must be inserted to play again.
 
 
-In testbench, we play 20 times. Try it!: https://www.edaplayground.com/x/3CcF
+With the testbench, we play 20 times. Try it!: https://www.edaplayground.com/x/3CcF
+
+___
+
+***Hardware Total Elements*** (compiling for Cyclone IV FPGAs -with Intel Quartus Prime-):
+
+![hardware Slot Machine](https://i.imgur.com/mLSxyp9.png)
